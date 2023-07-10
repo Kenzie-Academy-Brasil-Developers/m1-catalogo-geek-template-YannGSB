@@ -1,0 +1,135 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #ffffff;
+}
+
+header {
+  border-bottom: 1px solid #e1dfdf;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.mainlogo {
+    margin-left: 10px;
+}
+
+.button-container ul {
+  display: flex;
+}
+
+.button-container li {
+  margin: 8px;
+}
+
+.button-container button {
+  font-size: 20px;
+  font-weight: normal;
+  color: #0a99fe;
+  background-color: rgba(10, 153, 254, 0.1);
+  border: none;
+  border-radius: 8px;
+  padding: 6px;
+  width: 150px;
+  height: 40px;
+}
+
+.button-container button:hover {
+  background-color: #0a99fe;
+  color: #ffffff;
+}
+
+section {
+  overflow-x: auto;
+}
+
+.section-tittle {
+  font-size: 20px;
+  font-weight: normal;
+  color: #1b1b1b;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 30px;
+}
+
+.text {
+  color: #868383;
+}
+
+.painting-section {
+  overflow-x: auto;
+}
+
+.painting-list {
+  display: flex;
+  margin-left: 30px;
+}
+
+.actionfigure-section {
+  overflow-x: auto;
+}
+
+.actionfigure-list {
+  display: flex;
+  margin-left: 30px;
+}
+
+.card {
+  min-width: 207px;
+  max-width: 207px;
+  min-height: 275px;
+  max-height: 275px;
+  width: 275px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+  margin-right: 20px;
+  border-radius: 8px;
+}
+
+.imageContainer {
+  width: 100%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imageContainer img {
+  max-width: 100%;
+  min-height: 100%;
+  max-height: 100%;
+  min-width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.textContainer {
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.card-name {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  margin-top: auto;
+}
+
+.card-price {
+  font-size: 16px;
+  font-weight: normal;
+  color: #909090;
+  margin-top: 10px;
+  margin-bottom: auto;
+}
