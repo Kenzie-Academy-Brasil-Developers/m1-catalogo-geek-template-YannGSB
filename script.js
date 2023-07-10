@@ -118,16 +118,14 @@ function createCards(productsArray) {
   return li;
 }
 
-const actionFigureUl = document.querySelector(".actionfigure-list");
-for (let i = 0; i < actionFiguresArray.length; i++) {
-  let arr = actionFiguresArray[i];
-  let card = createCards(arr);
-  actionFigureUl.appendChild(card);
+function renderProducts(productArr, containerSelector) {
+  const container = document.querySelector(containerSelector);
+  for (let i = 0; i < productArr.length; i++) {
+    let arr = productArr[i];
+    let card = createCards(arr);
+    container.appendChild(card);
+  }
 }
 
-const paintingUl = document.querySelector(".painting-list");
-for (let i = 0; i < paintingsArray.length; i++) {
-  let arr = paintingsArray[i];
-  let card = createCards(arr);
-  paintingUl.appendChild(card);
-}
+renderProducts(actionFiguresArray, ".actionfigure-list");
+renderProducts(paintingsArray, ".painting-list");
