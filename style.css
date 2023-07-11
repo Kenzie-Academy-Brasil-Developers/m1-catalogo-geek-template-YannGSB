@@ -15,7 +15,7 @@ nav {
   display: flex;
   padding: 20px;
   justify-content: flex-end;
-  margin-left: auto
+  margin-left: auto;
 }
 
 .mainlogo {
@@ -135,7 +135,7 @@ section {
 .card-price {
   font-size: 16px;
   font-weight: normal;
-  color: #909090;
+  color: #868383;
   margin-top: 10px;
   margin-bottom: auto;
 }
